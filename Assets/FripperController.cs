@@ -20,7 +20,6 @@ public class FripperController : MonoBehaviour
     {
         foreach (Touch t in Input.touches)
         {
-            var id = t.fingerId;
             switch (t.phase)
             {
                 case TouchPhase.Began:
